@@ -1,0 +1,35 @@
+/* Ensures the background covers the whole screen */
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #87a1bc; /* Dark theme */
+  color: white;
+}
+
+/* Centers content and makes it take the full width */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the title */
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vh;
+}
+
+/* Centers title */
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Displays user cards in a row */
+.user-list {
+  display: flex;
+  flex-direction:colomn ;  /* Ensures horizontal alignment */
+  flex-wrap: wrap;  /* Allows wrapping on smaller screens */
+  justify-content: center;  /* Centers cards */
+  gap: 5px;  /* Adds spacing between cards */
+  width: 100%;  /* Ensures full width */
+  max-width: 90%; /* Keeps it from stretching too much */
+}
