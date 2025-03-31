@@ -15,6 +15,6 @@ It includes buttons for:
 - ✅ **Decrementing the count** (disabled at 0)
 - ✅ **Resetting the count**
 # UI Review
-![Counter Screenshot](public/screenshot.png)
+![Counter Screenshot](Counter-app/public/screenshot.png)
 
 
